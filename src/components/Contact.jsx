@@ -67,7 +67,7 @@ export default function Example() {
           <div>
             <label  style={{background:'transparent',color:'white'}} htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">
               First name
-            </label>
+            </label><br />
             <div className="mt-2.5">
               <input style={{background:'transparent',color:'white',fontSize:'18px'}}
                 type="text" required
@@ -81,7 +81,7 @@ export default function Example() {
           <div>
             <label  style={{background:'transparent',color:'white'}} htmlFor="last-name" className="block text-sm font-semibold leading-6 text-gray-900">
               Last name
-            </label>
+            </label><br />
             <div className="mt-2.5">
               <input style={{background:'transparent',color:'white',fontSize:'18px'}}
                 type="text"
@@ -95,7 +95,7 @@ export default function Example() {
           <div  style={{background:'transparent',color:'white'}} className="sm:col-span-2">
             <label  style={{background:'transparent',color:'white'}} htmlFor="company" className="block text-sm font-semibold leading-6 text-gray-900">
               Company
-            </label>
+            </label><br />
             <div  style={{background:'transparent',color:'white'}} className="mt-2.5">
               <input style={{background:'transparent',color:'white',fontSize:'18px'}}
                 type="text"
@@ -109,7 +109,7 @@ export default function Example() {
           <div  style={{background:'transparent',color:'white'}} className="sm:col-span-2">
             <label  style={{background:'transparent',color:'white'}} htmlFor="email" className="block text-sm font-semibold leading-6 text-gray-900">
               Email
-            </label>
+            </label><br />
             <div className="mt-2.5">
               <input style={{background:'transparent',color:'white',fontSize:'18px'}}
                 type="email"
@@ -123,12 +123,12 @@ export default function Example() {
           <div className="sm:col-span-2">
             <label  style={{background:'transparent',color:'white'}} htmlFor="phone-number" className="block text-sm font-semibold leading-6 text-gray-900">
               Phone number
-            </label>
+            </label><br />
             <div className="relative mt-2.5">
               <div className="absolute inset-y-0 left-0 flex items-center">
                 <label   style={{background:'transparent',color:'white',fontSize:'18px'}} htmlFor="country" className="sr-only">
                   Country
-                </label>
+                </label><br />
                 <select style={{width:'80px',background:'transparent',color:'white',fontSize:'18px'}}
                   id="country"
                   name="country"
@@ -142,7 +142,7 @@ export default function Example() {
                   className="pointer-events-none absolute right-3 top-0 h-full w-5 text-gray-400"
                   aria-hidden="true"
                 />
-              </div>
+              </div><br />
               <input style={{background:'transparent',color:'white',fontSize:'18px'}}
                 type="tel"
                 name="phone-number"
@@ -155,7 +155,7 @@ export default function Example() {
           <div className="sm:col-span-2">
             <label  style={{background:'transparent',color:'white',fontSize:'18px'}} htmlFor="message" className="block text-sm font-semibold leading-6 text-gray-900">
               Message
-            </label>
+            </label><br />
             <div className="mt-2.5">
               <textarea style={{background:'transparent',color:'white',fontSize:'18px'}}
                 name="message"
@@ -194,6 +194,7 @@ export default function Example() {
               .
             </Label>
           </Field>
+          <br /><br />
 
           <button style={{marginLeft:'150px',width:'300px',marginBottom:'80px'}}
             type="submit"

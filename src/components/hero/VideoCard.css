@@ -84,18 +84,11 @@
    position: relative;text-align: center;
 
  top: 700px;
- height: 150px;
    
     }
-   .video-card .videocs{
-     
-     padding-top: 2px;
-     object-fit: cover;
-
-    }
+ 
   
     .video-player-container{
-      height: 0px;     background-color: aqua;
-      object-fit: cover;
+    
     }
   }

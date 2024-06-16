@@ -97,7 +97,7 @@ ul .btn1:hover {
 @media (max-width: 768px) {
    
 .nav{
-    height: 10vh;
+    height: 15vh;
 }
     ul {
         flex-direction: column;
@@ -131,5 +131,8 @@ ul .btn1:hover {
 
     .nav img {
         margin-left: px;
+        height: 50px;
+        width: 100px;
+        margin-bottom: 10px;
     }
 }

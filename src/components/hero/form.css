@@ -47,6 +47,8 @@ form {
   @media (min-width:30px) and (max-width: 400px) {
    select {
       width: 20px;
+      padding: 5px;
+
     }
     label {
       left: 0px;
@@ -61,17 +63,18 @@ form {
        margin-right: 9px;
         outline: none;
         width: 8px;
+        border: 1px solid white;
      
        
         }
         .form-container .btnf {
           height: 20px;
-         
+          border: 1px solid white;
           
           background-color: #45a0c1;
           color: white;
          
-          width: 48px;
+          width: 100px;
           font-size: 5px;
           position: relative;
          top: 35px;
@@ -92,6 +95,9 @@ form {
  left: 0px;
 right: 20px;
     font-size: 5px;
+  }
+  .form-container select{
+    border: 1px solid white;
   }
 
     .Apppara{

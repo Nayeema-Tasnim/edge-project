@@ -56,30 +56,7 @@ const Fif = () => {
         
         url: 'https://www.youtube.com/watch?v=SMWjenqcMno'
       },
-      {
-        id: 9,
-     
-        
-        url: 'https://www.youtube.com/watch?v=wAENwCURMmQ'
-      },
-      {
-        id: 10,
-       
-        
-        url: 'https://www.youtube.com/watch?v=ipw1fQad5sg'
-      },
-      {
-        id: 11,
-       
-        
-        url: 'https://www.youtube.com/watch?v=iCYCreDl2vs'
-      },
-      {
-        id: 12,
-       
-        
-        url: 'https://www.youtube.com/watch?v=wAENwCURMmQ'
-      }
+      
   ]);
 
   return (
