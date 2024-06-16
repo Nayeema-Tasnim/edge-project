@@ -97,7 +97,7 @@ ul .btn1:hover {
 @media (max-width: 768px) {
    
 .nav{
-    height: 15vh;
+    height: 10vh;
 }
     ul {
         flex-direction: column;
