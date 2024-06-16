@@ -1,0 +1,63 @@
+.video-gallery{
+    position: relative;
+    top: 1900px;
+    display: flex;
+    height: 140px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    gap: 20px;
+}
+
+@media (min-width:30px) and (max-width: 400px) {
+    .video-gallery{
+      position: relative;
+      top: 0px; 
+    
+
+    };
+    .video-card{
+      height: 40px; 
+       
+     }
+     .video-player-container{
+   
+     
+     }
+    .video-gallery .v{
+      max-height: 50px;position: relative;
+     
+    
+    }
+    .video-card p,h2{
+      font-size: 5px;
+    }
+    
+   }
+   
+   /* For screens between 401px and 768px */
+   @media (min-width:401px) and (max-width: 768px) {
+    .video-gallery{
+      position: relative;
+     top: 800px;
+ 
+   }
+   .video-card p,h2
+   {line-height: 50px;
+   }
+
+   }
+   
+   /* For screens between 769px and 1024px */
+   @media (min-width:769px) and (max-width: 1024px) {
+     .video-gallery{
+        top: 1900px;
+      
+     }
+   }
+   
+   /* For screens larger than 1024px */
+   @media screen and (min-width: 1025px) {
+   
+ }
+ 

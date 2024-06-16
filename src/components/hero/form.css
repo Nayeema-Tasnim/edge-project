@@ -1,0 +1,159 @@
+form {
+    display: flex;
+  justify-content: space-evenly;
+    align-items: center;
+    height:90px;
+    
+  }
+  
+  label {
+    position: relative;
+    right: 70px;
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+  }
+  option{
+    color: black;
+  }
+  select {
+    margin-bottom: 30px;
+    width: 240px;
+    font-weight: 600;
+    padding: 5px;
+    background: transparent;
+    border: 2px solid white;
+  }
+
+  .btnf {
+    height: 40px;
+    margin-top: 
+    50px;
+    width: 210px;
+    
+    background-color: #45a0c1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    font-size: 1.05em;
+  }
+  
+  .btnf:hover {
+    background-color: #0056b3;
+  }
+
+  
+  @media (min-width:30px) and (max-width: 400px) {
+   select {
+      width: 20px;
+    }
+    label {
+      left: 0px;
+      top: 20px;
+     right: 20px;
+         font-size: 15px;
+       }
+       .form-container select{
+        margin-bottom: 60px;
+        height: 10px;
+        font-size: 5px;
+       margin-right: 9px;
+        outline: none;
+        width: 8px;
+     
+       
+        }
+        .form-container .btnf {
+          height: 20px;
+         
+          
+          background-color: #45a0c1;
+          color: white;
+         
+          width: 48px;
+          font-size: 5px;
+          position: relative;
+         top: 35px;
+          cursor: pointer;
+          outline: none;
+    
+        }
+   
+  }
+  
+  /* For screens between 401px and 768px */
+  @media (min-width:401px) and (max-width: 768px) {
+   .par{
+    text-align: center;
+    font-size: 1em;
+   }
+   label {
+ left: 0px;
+right: 20px;
+    font-size: 5px;
+  }
+
+    .Apppara{
+      top: 1300px;
+     
+    }
+   * {
+      font-size: smaller;
+    }
+    .form-container select{
+    margin-bottom: 60px;
+    height: 10px;
+    font-size: 5px;
+   margin-right: 19px;
+    outline: none;
+    width: 8px;
+    border: 1px solid white;
+   
+    }
+
+    .form-container .btnf {
+      height: 10px;
+      margin-right: 60px;
+      
+      background-color: #45a0c1;
+      color: white;
+      border: none;
+      width: 28px;
+      position: relative;
+     top: 10px;
+      cursor: pointer;
+      outline: none;
+
+    }
+    
+  }
+  
+  /* For screens between 769px and 1024px */
+  @media screen and (max-width: 1024px) {
+    .form-container {
+      width: 90%; /* Adjust width for larger screens */
+    }
+    .form-container select{
+width: 12em;
+margin-right: .7em;
+    }
+    .par {
+      font-size: 2em; /* Maintain height for larger screens */
+    }
+    .form-container .btnf{
+      height: 1.6em;
+    }
+  }
+  
+  /* For screens larger than 1024px */
+  @media screen and (min-width: 1025px) {
+   .form-container{
+width: 80%;
+   
+   /* Adjust width for larger screens */
+  }
+  .par {
+    font-size: 2.2em; /* Maintain height for larger screens */
+  }
+}

@@ -1,0 +1,125 @@
+.con form {
+    position: relative;
+    height: 800px;
+    bottom: 500px;
+    padding-top: 170px;
+}
+
+.fo {
+    margin-top: 100px;
+    height: 1000px;
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+    .con section {
+        margin-top: 200px;
+    }
+
+    .con form {
+        height: auto;
+        bottom: auto;
+        padding-top: 50px;
+    }
+
+    .fo {
+        margin-top: 20px;
+        height: auto;
+    }
+
+    .isolate {
+        width: auto;
+        padding: 16px;
+    }
+
+    .con section {
+        padding: 16px;
+    }
+
+    .carousel-container .carousel-item .carousel-caption {
+        padding-top: 120px;
+    }
+    
+    .carousel-container .carousel-item .carousel-caption h1 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .con section {
+        margin-top: 150px;
+    }
+
+    .con form {
+        padding-top: 40px;
+    }
+
+    .fo {
+        margin-top: 10px;
+    }
+
+    .isolate {
+        padding: 12px;
+    }
+
+    .con section {
+        padding: 12px;
+    }
+
+    .carousel-container .carousel-item .carousel-caption {
+        padding-top: 100px;
+    }
+    
+    .carousel-container .carousel-item .carousel-caption h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .con section {
+     
+        border-top-color: 50px;
+      width: 100%;
+
+        margin-top: 100px;
+    }
+    .fo h2{
+        position: relative;
+        top: 400px;
+    }
+.con{
+    margin-bottom :60px ;
+}
+    .con form {
+        padding-top: 30px;
+    }
+
+    .fo { background: transparent ;
+        margin-top: 5px;      
+    }
+
+    .isolate {
+        padding: 8px;
+    }
+
+    .con section {
+        padding: 8px; background: transparent ;
+    }
+
+    .carousel-container {
+        height: 400px;
+        margin-top: 80px;
+    }
+
+    .carousel-item img {
+        height: 300px;
+    }
+
+    .carousel-container .carousel-item .carousel-caption {
+        padding-top: 80px;
+    }
+    
+    .carousel-container .carousel-item .carousel-caption h1 {
+        font-size: 16px;
+    }
+}

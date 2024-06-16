@@ -1,0 +1,36 @@
+.vidd video {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.vidd {
+    height: 100%;
+    position: absolute;
+    top: 1700px;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+/* Responsive design */
+@media (max-width: 992px) {
+    .vidd {
+        top: 2680px;
+        height: 380px; /* Adjust top position for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .vidd {
+        top: 2100px;
+        height: 380px;/* Adjust top position for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .vidd {
+        height: 380px;
+        top: 2900px; /* Adjust top position for the smallest screens */
+    }
+}

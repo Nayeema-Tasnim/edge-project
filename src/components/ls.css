@@ -1,0 +1,16 @@
+
+.home-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.ls {
+    
+    background-color: #c04040;
+    
+  }
+  
+  .ls form{
+    height: 400px;
+    font-size: 14px;
+  }

@@ -1,0 +1,155 @@
+.secswipp .swiper {
+  width: 100%;
+  height: 700px;
+  transition: 0.2s;
+  z-index: -1;
+}
+.secswipp {
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+}
+.swhp {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  top: 40%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: whitesmoke;
+  font-size: larger;
+}
+
+.swhp button {
+  z-index: 1;
+  transition: 0.2s;
+  background: transparent;
+  text-align: center;
+  width: 250px;
+  border: 4px solid white;
+  border-radius: 5px;
+  height: 48px;
+  color: white;
+}
+.swhp h1 {
+  color: #00f7bd;
+  font-weight: 600;
+  letter-spacing: 8px;
+  font-size: 40px;
+}
+.swhp button:hover {
+  background-color: #246354;
+}
+
+.secswipp .swiper-slide {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secswipp .swiper-slide img {
+  display: block;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+@media (max-width: 1200px) {
+  .swiper {
+    height: 600px;
+  }
+  .swhp h1 {
+    font-size: 35px;
+  }
+  .swhp button {
+    width: 220px;
+    height: 42px;
+    font-size: medium;
+  }
+}
+
+@media (max-width: 992px) {
+  .secswipp .swiper {
+    height: 600px;
+  }
+  .swhp{
+    position: relative;
+    bottom: 22rem;
+  }
+  .swhp h1 {
+    font-size: 30px;
+  }
+  .swhp button {
+    width: 200px;
+    height: 38px;
+    font-size: medium;
+  }
+}
+
+@media (max-width: 768px) {
+  .swiper {
+    height: 25em;
+  }
+  .swhp {
+    font-size: smaller;
+  }
+  .swhp h1 {
+    font-size: 25px;
+  }
+  .swhp button {
+    width: 180px;
+    height: 35px;
+    font-size: small;
+    border: 2px solid white;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .secswipp  .swiper {
+    height: 400px;
+
+  }
+  .swhp{
+     position: relative;
+      bottom: 18rem;
+  }
+ 
+  .secswipp .swhp h1 {
+   
+    font-size: 20px;
+   
+    letter-spacing: 4px;
+  }
+  .secswipp .swhp button {
+    width: 100px;
+    height: 30px;
+    font-size: smaller;
+    border: 2px solid white;
+  }}
+
+@media (max-width: 400px) {
+  .swiper {
+    height: 15em;
+  }
+  .swhp h1 {
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+  .swhp button {
+    width: 120px;
+    height: 25px;
+    font-size: smaller;
+    border: 1px solid white;
+  }
+}

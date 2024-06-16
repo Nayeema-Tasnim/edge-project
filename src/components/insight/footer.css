@@ -1,0 +1,149 @@
+.footerin {
+    background-color: #181819;
+    color: #fff;
+    padding: 4rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 200px;
+   width: 100%;
+    text-align: center;
+  }
+  
+  
+  
+  body{
+   
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .footer .newsletter h2 {
+    margin-bottom: 24px;
+    font-size: 24px;
+  }
+  
+  .footer .newsletter p {
+    margin-bottom: 24px;
+    font-size: 20px;
+  }
+  
+  .footer .newsletter form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer .newsletter input {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    margin-right: 10px;
+    outline: none;
+    font-size: 18px;
+  }
+  
+  .footer .newsletter button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    background-color: #4b59f7;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .footer-links {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+  }
+  
+  .footer-link-wrapper {
+    display: flex;
+  }
+  
+  .footer-link-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px;
+    text-align: left;
+    width: 160px;
+    box-sizing: border-box;
+  }
+  
+  .footer-link-items h3 {
+    margin-bottom: 16px;
+  }
+  
+  .footer-link-items a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+  }
+  
+  .footer-link-items a:hover {
+    color: #4b59f7;
+    transition: 0.3s ease-out;
+  }
+  
+  .footer-bottom {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom .social-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 240px;
+  }
+  
+  .footer-bottom .social-icon-link {
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .website-rights {
+    margin-bottom: 16px;
+  }
+  
+  @media screen and (max-width: 820px) {
+    .footer-links {
+      flex-direction: column;
+      text-align: center;
+      
+    }
+  
+  
+    .footer-link-wrapper {
+      flex-direction: column;
+      font-size: smaller;
+    }
+    .footerin button{
+      background-color: #4b59f7;
+      height: 30px;
+      width:100px
+
+    }
+    .footerin input{
+      width: 240px;
+      height: 30px;
+      padding-left: 10px;
+    }
+    .footerin .footer-link-items{
+      position: inherit;
+      margin-left: 170px;
+      text-align: center;
+    }
+
+    .footerin .footer-link-items a{
+      text-align: center;
+    }
+  }

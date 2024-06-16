@@ -1,0 +1,103 @@
+/* Swiper container */
+.swip .swiper {
+  width: 100%;
+  padding-top: 50px;
+  bottom: 30px;
+  position: absolute;
+}
+
+/* Swiper slides */
+.swip .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 100%; /* Make it 100% width for better responsiveness */
+ max-width: 300px; /* Add a max-width for larger screens */
+  height: 360px; /* Auto height to maintain aspect ratio */
+}
+
+/* Swiper slide images */
+.swip .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%; /* Maintain aspect ratio */
+}
+
+/* Additional swip class for positioning */
+.swip {
+  position: relative;
+  top: 1660px;
+}
+
+/* Additional swip image class for responsive design */
+.swip .swipimg {
+  position: relative;
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  max-height: 350px; /* Max height for larger screens */
+}
+
+/* Media queries for different screen sizes */
+
+/* For screens up to 400px */
+@media (min-width:30px) and (max-width: 400px) {
+  .swip .swiper{
+   position: relative;
+  bottom: 1200px;
+  }
+  .swip .swiper-slide {
+    max-width: 100%; /* Full width for small screens */
+  }
+.swip .swiper-slide img{
+
+    max-width: 100%;
+    height: 70px;
+  }
+  .swip .swipimg {
+    height: 70px; /* Adjust height for small screens */
+  }
+  
+}
+
+
+/* For screens between 401px and 768px */
+@media (min-width:401px) and (max-width: 768px) {
+  .swip .swiper{
+    position: absolute;
+
+bottom: 1050px;
+
+
+  }
+  .swip .swiper-slide {
+    width: 32em;
+    height: 32em; /* Full width for medium screens */
+  }
+  .swip .swiper-slide img{
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+
+
+}
+
+
+
+/* For screens between 769px and 1024px */
+@media screen and (max-width: 1024px) {
+  .swip .swiper-slide {
+    max-width: 30%; /* Adjust width for larger screens */
+  }
+  .swip .swiper-slide img{
+    height: 100%;
+    width: 100%;
+  }
+
+  .swip .swipimg {
+    max-height: 400px; /* Maintain height for larger screens */
+  }
+  .swip{
+    top: 1700px;
+  }
+}
+

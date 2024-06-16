@@ -1,0 +1,30 @@
+.secwork{
+  text-align: left;
+  margin-left: 150px;
+  
+    color:#00F7BD;
+    /* //B8 */
+    margin-top: 100px;
+    
+}
+.secwork P{
+    color: white;
+}
+
+.secwork h1{
+      font-size: 45px;font-weight: 500;
+}
+
+@media screen and  (max-width: 768px){
+.secwork{
+    font-size: smaller;
+    margin-left: 50px;
+    position: relative;
+    bottom: 12rem;
+
+}
+.secwork h1{
+    font-size: 20px;
+}
+}
+    

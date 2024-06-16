@@ -1,0 +1,50 @@
+.for {
+    margin-top: 1000px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 170px 20px;
+    color: white;
+}
+
+.for video {
+    height: 300px;
+    object-fit: cover;
+    width: 400px;
+}
+
+/* Responsive design */
+@media (max-width: 992px) {
+    .for {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 50px 20px;
+    }
+
+    .for video {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .for {
+        padding: 0 30px 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .for {
+        padding: 0 10px 20px;
+        position: relative;
+       bottom: 200px;
+    }
+.forh{
+    margin-top: 90px;
+}
+
+    .for video {
+        width: 100%;
+        height: auto;
+    }
+}

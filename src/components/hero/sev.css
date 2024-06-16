@@ -1,0 +1,174 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@media (min-width:641px) and (max-width: 982px) {
+ 
+  .sdev section{
+    position: relative;
+    top:200px;
+    line-height: 300px;
+   
+    
+  }
+
+.sdev .container{
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+  
+
+  .sdev section .testimonial {
+p{
+  font-size: 10px;
+}
+img{
+  height: 25px;
+  width: 25px;
+}
+  
+width: 280px;
+   
+  }
+  .sdev section h1{
+    font-size: 25px; 
+    margin-left: 70px;
+  }
+  
+}
+
+@media (min-width:401px) and (max-width: 640px) {
+  
+  .sdev section {
+   position: relative;
+top: -800px;
+line-height: 5px;
+    
+  }
+  .sdev .container{
+    flex-direction: row;  
+    flex-wrap: wrap;
+  }
+  .sdev section .testimonial{
+    width: 150px; 
+  
+    p{
+      font-size: 7px;
+    }
+  
+  }
+ 
+}
+
+@media (min-width:1px) and (max-width: 400px) {
+  
+  .sdev section {
+   position: relative;
+bottom: 1300px;
+line-height: 1px;
+height: 100px;
+    
+  }
+  .sdev p{
+    line-height: 10px;
+  }
+  .sdev h1{
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .sdev .container{
+    flex-direction: row;  
+    flex-wrap: wrap;
+  }
+  .sdev section .testimonial{
+    width: 150px; 
+  
+    p{
+      font-size: 7px;
+    }
+  
+  }
+ 
+}
+
+.sdev {
+  position: relative;
+  top:2300px;
+}
+
+.dark-bg-gray-100 {
+  background-color: #f3f4f6; /* Light gray background for dark mode */
+}
+
+.dark-text-gray-800 {
+  color: #1f2937; /* Dark gray text color for dark mode */
+}
+
+.dark-bg-gray-50 {
+  background-color: #f9fafb; /* Slightly lighter gray background for dark mode */
+}
+
+.dark-bg-violet-600 {
+  background-color: #7c3aed; /* Violet background for dark mode */
+}
+
+.dark-text-gray-50 {
+  color: #f9fafb; /* Light gray text color for dark mode */
+}
+
+.dark-text-violet-600 {
+  color: #7c3aed; /* Violet text color for dark mode */
+}
+
+.bg-teal-300 {
+  background-color: #00F7B8; /* Custom teal background */
+}
+
+.dark-bg-gray-500 {
+  background-color: #6b7280; /* Gray background for dark mode */
+}
+
+.bg-cover {
+  background-size: cover; /* Ensures background images cover their containers */
+}
+
+.bg-center {
+  background-position: center; /* Centers background images */
+}
+
+@media (min-width:982px) and (max-width: 1025px){
+
+  .sdev section{
+    position: relative;
+    top: 300px;
+  
+  }
+
+.sdev .container{
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+  
+.sdev p{
+  font-size: 10px;
+  line-height: 12px;
+}
+  .sdev section .testimonial {
+
+img{
+  height: 25px;
+  width: 25px;
+}
+width: 200px;
+
+   
+  }
+  .sdev section h1{
+   margin-left: 150px;
+   
+    
+  }
+
+}

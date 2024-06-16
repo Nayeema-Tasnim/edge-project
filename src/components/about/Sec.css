@@ -1,0 +1,45 @@
+.secab{
+    position: relative;
+    top: 750px;
+    height: 450px;
+
+    padding-top: 50px;
+    padding-left: 100px;
+color: white;
+background-color: rgba(0, 0, 0, 0.01);
+background-color: hsla(0, 0%, 0%, .1);
+
+}
+
+
+.secab h1{
+font-size: 55px;
+color: #00F7B8;
+}
+
+@media (max-width: 768px) {
+    .secab {
+        height: 50%;
+    }
+
+    video {
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 576px) {
+    .secab {
+      position: absolute;
+      top: 500px;
+
+        width: 100%;
+    }
+
+    .secab h1 {
+        font-size: 20px;
+    }
+    .secab p{
+        font-size: 10px;
+    }
+}
+

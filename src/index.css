@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Outfit", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://w0.peakpx.com/wallpaper/505/650/HD-wallpaper-abstract-black-green-texture.jpg');
+}
+
+.nav {
+    z-index: 5;
+    height: 15vh;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.379);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    padding: 0 50px;
+}
+
+ul {position: absolute;
+    right: 80px;
+
+    display: flex;
+    gap: 25px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    color: rgb(247, 247, 250);
+}
+ul li a:hover {
+    color: aquamarine;
+}
+
+.nav img {
+    height: 100px;
+    width: 150px;
+}
+
+ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 3px;
+    width: 100%;
+    background-color: #fdfefd;
+    transition: .5s;
+    transform: scaleX(0);
+    transform-origin: left;
+    cursor: pointer;
+}
+
+ul li a:hover:after {
+    transform: scaleX(1);
+}
+
+.btn1 {
+    background-color: transparent;
+    color: white;
+    font-size: 23px;
+    border: none;
+    height: 50px;
+    width: 110px;
+    transition: .5s;
+    padding-bottom: 25px;
+}
+
+ul .btn1:hover {
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgb(43, 82, 69);
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+.nav .mobile-menu-icon {
+    display: none;
+}
+
+@media (max-width: 768px) {
+   
+.nav{
+    height: 10vh;
+}
+    ul {
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        display: none;
+        align-items: center;
+    }
+
+    ul.show {
+        display: flex;
+    }
+
+    ul li {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .nav .mobile-menu-icon {
+        display: block;
+        font-size: 2rem;
+        color: #fff;
+        background: none;
+        border: none;
+        margin-right: 60px;
+        cursor: pointer;
+    }
+
+    .nav img {
+        margin-left: px;
+    }
+}

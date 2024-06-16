@@ -1,0 +1,101 @@
+.video-card {
+    background: #b86767;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+    height: 220px;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.333% - 20px);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .video-card h2 {
+    margin-top: 0;
+  }
+  
+  .video-card p {
+    color: #666;
+  }
+  
+  .video-player-container {
+    position: relative;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .video-player-container iframe,
+  .video-player-container object,
+  .video-player-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .video-card-actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .video-card:hover .video-card-actions {
+    opacity: 1;
+  }
+  
+  .video-card-actions .bt {
+    margin-right: 5px;
+   padding-left: 3px;
+   font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .video-card-actions .bt:hover {
+    background-color: #d765e1;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    
+  }
+  
+  @media (max-width: 480px) {
+   
+  }
+
+  @media (max-width: 1024px) {
+    .video-card {
+   position: relative;
+   left: 20px;
+   
+    }
+  }
+
+  @media(min-width:20px) and (max-width: 400px) {
+    .video-card {
+   position: relative;text-align: center;
+
+ top: 700px;
+ height: 150px;
+   
+    }
+   .video-card .videocs{
+     
+     padding-top: 2px;
+     object-fit: cover;
+
+    }
+  
+    .video-player-container{
+      height: 0px;     background-color: aqua;
+      object-fit: cover;
+    }
+  }

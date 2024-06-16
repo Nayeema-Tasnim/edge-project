@@ -1,0 +1,148 @@
+/* Original CSS */
+.event-pricing-section {
+  padding: 50px;
+  background: transparent;
+  text-align: center;
+  position: relative;
+  top: 1200px;
+}
+
+.event-pricing-title {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: aquamarine;
+}
+
+.event-pricing-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.event-pricing-card {
+  background-color: #343a40;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 400px;
+  height: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  transition: transform 0.3s ease-in-out, height 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  position: relative;
+}
+
+.event-pricing-card:hover {
+  transform: scale(1.05);
+  height: 600px;
+  overflow: visible;
+  padding-top: 20px;
+}
+
+.event-pricing-plan {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.event-pricing-cost {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.event-pricing-card:hover .event-pricing-cost {
+  opacity: 0;
+}
+
+.event-pricing-features {
+  list-style: none;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  padding: 0;
+  margin-top: 70px;
+  transition: margin 0.3s ease-in-out;
+}
+
+.event-pricing-card:hover .event-pricing-features {
+  opacity: 1;
+}
+
+.event-pricing-features li {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.event-pricing-section .event-pricing-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.event-pricing-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 992px) {
+  .event-pricing-card {
+      width: 80%;
+      margin: 10px 0;
+  }
+  .event-pricing-section{
+    position: absolute;
+    top: 3200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .event-pricing-cards {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .event-pricing-card {
+      width: 90%;
+      margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .event-pricing-title {
+      font-size: 2rem;
+      margin-bottom: 30px;
+  }
+  .event-pricing-section{
+    position: relative;
+    top: 500px;
+  }
+
+  .event-pricing-card {
+      width: 95%;
+      margin: 10px 0;
+  }
+
+  .event-pricing-plan {
+      font-size: 1.2rem;
+  }
+
+  .event-pricing-cost {
+      font-size: 1.5rem;
+  }
+
+  .event-pricing-features li {
+      font-size: 0.9rem;
+  }
+}

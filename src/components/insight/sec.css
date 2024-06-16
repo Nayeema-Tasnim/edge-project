@@ -1,0 +1,97 @@
+.inssec img {
+    height: 290px;
+    width: 500px;
+    margin-left: 150px;
+    object-fit: cover;
+}
+
+.inssec {
+    margin-top: 140px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.insec h1 {
+    font-size: 30px;
+    color: rgb(114, 230, 191);
+}
+
+.insec {
+    margin-right: 70px;
+}
+
+.insec button {
+    height: 50px;
+    width: 200px;
+    font-size: large;
+    background-color: rgb(17, 85, 62);
+    color: white;
+    border-radius: 3px;
+}
+
+/* Responsive design */
+@media (max-width: 992px) {
+    .inssec {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+    }
+
+    .inssec img {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .insec {
+        margin-right: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .insec h1 {
+        font-size: 25px;
+    }
+
+    .insec button {
+        width: 80%;
+        font-size: medium;
+    }
+}
+
+@media (max-width: 768px) {
+    .inssec img {
+        height: 200px;
+    }
+
+    .insec h1 {
+        font-size: 22px;
+    }
+
+    .insec button {
+        width: 100%;
+        font-size: small;
+    }
+}
+
+@media (max-width: 576px) {
+    .inssec img {
+        height: 150px;
+    }
+.inssec caption{
+font-size: 10px;
+}
+.insec{
+    margin-top: 60px;
+}
+    .insec h1 {
+        font-size: 20px;
+    }
+
+    .insec button {
+        width: 100%;
+        height: 40px;
+        font-size: small;
+    }
+}

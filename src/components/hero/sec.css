@@ -1,0 +1,164 @@
+/* Base styles */
+.sec {
+    height: 300px;
+   padding-left: 20%;
+    padding-top: 50px;
+    width: 100%;
+    position: absolute;
+    top: 850px;
+    font-size: larger;
+   
+}
+
+.sech1 {
+    color: #00F7B8;
+    padding-bottom: 170px;
+    padding-left: 10%;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.secp:hover {
+    transition: 2s;
+    transform: translate(0, -25px);
+}
+
+.sech1:hover {
+    transition: 2s;
+    transform: translate(0, -20px);
+}
+
+.sech1,
+.secp {
+    position: absolute;
+    transition: 2s;
+    bottom: 70px;
+}
+
+.sec img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.secp {width: 90%;
+    color: white;
+    top: 100px;
+    left: 70px;
+   
+}
+
+marquee {
+    position: relative;
+    top: 45rem;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .sec {
+        top: 800px;
+    }
+    .secp:hover{
+        transform: translate(1);
+    }
+    .sech1 {
+        padding-left: 4%;
+        font-size: 30px;
+    }
+    .secp {
+        top: 90px;
+        margin-right: 200px;
+    }
+    marquee {
+        top: 38rem;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 992px) {
+    .sec {
+        top: 700px;
+    }
+    .sech1 {
+        padding-right: 29%;
+        font-size: 28px;
+    }
+    .secp {
+        top: 80px;
+        margin-right: 200px;
+    }
+    marquee {
+        top: 35rem;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sec {
+        top: 700px;
+    }
+    .sech1 {
+        padding-left: 10%;
+        font-size: 25px;
+    }
+    .secp {
+        top: 70px;
+        margin-right: 100px;
+    }
+    marquee {
+        top: 30rem;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .sec {
+        top: 330px;
+    }
+    .sech1 {
+        padding-left: 3%;
+        font-size: 16px;
+    }
+    .secp {
+        top: 80px;
+        padding-right: 70px;
+    }
+    marquee {
+       
+        top: 22rem;
+        font-size: 10px;
+    }
+    .secp{
+        margin-right: 111px;
+    }
+}
+
+@media (max-width: 400px) {
+    .sec {
+        top: 290px;
+        
+        
+    }
+    .sech1 {
+        padding-right: 30%;
+       font-size: 12px;
+    }
+    .sech1 span {
+       
+         font-size: 16px;
+    }
+    marquee {
+        top: 16rem;
+        font-size: 10px;
+    }
+   .sec .secp{
+    font-size: 10px;
+        top: 70px;
+        width: 90%;
+left: 30px;
+        overflow: hidden;
+       
+    }
+}
